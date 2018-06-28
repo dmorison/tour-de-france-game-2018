@@ -1,0 +1,1190 @@
+{"riders":[
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd001",
+    "Rider": "Chris Froome (GBr)"
+  },
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd002",
+    "Rider": "Sergio Henao (Col)"
+  },
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd003",
+    "Rider": "Christian Knees (Ger)"
+  },
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd004",
+    "Rider": "Mikel Landa (Esp)"
+  },
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd005",
+    "Rider": "Mikel Nieve (Esp)"
+  },
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd006",
+    "Rider": "Michal Kwiatkowski (Pol)"
+  },
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd007",
+    "Rider": "Luke Rowe (GBr)"
+  },
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd008",
+    "Rider": "Geraint Thomas (GBr)"
+  },
+  {
+    "Team": "Sky",
+    "team_code": "SKY",
+    "rider_code": "rd009",
+    "Rider": "Vasil Kiryienka (Blr)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd011",
+    "Rider": "Nairo Quintana (Col)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd012",
+    "Rider": "Andrey Amador (Crc)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd013",
+    "Rider": "Daniele Bennati (Ita)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd014",
+    "Rider": "Carlos Betancur (Col)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd015",
+    "Rider": "Jonathan Castroviejo (Esp)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd016",
+    "Rider": "Imanol Erviti (Esp)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd017",
+    "Rider": "Jesus Herrada (Esp)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd018",
+    "Rider": "Jasha Sutterlin (Ger)"
+  },
+  {
+    "Team": "Movistar",
+    "team_code": "MOV",
+    "rider_code": "rd019",
+    "Rider": "Alejandro Valverde (Esp)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd021",
+    "Rider": "Fabio Aru (Ita)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd022",
+    "Rider": "Jakob Fuglsang (Den)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd023",
+    "Rider": "Michael Valgren (Den)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd024",
+    "Rider": "Alexey Lutsenko (Kaz)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd025",
+    "Rider": "Andriy Grivko (Ukr)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd026",
+    "Rider": "Andrey Zeits (Kaz)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd027",
+    "Rider": "Dmitriy Gruzdev (Kaz)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd028",
+    "Rider": "Dario Cataldo (Ita)"
+  },
+  {
+    "Team": "Astana",
+    "team_code": "AST",
+    "rider_code": "rd029",
+    "Rider": "Bakhtyar Kozhatayev (Kaz)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd031",
+    "Rider": "Louis Meintjes (RSA)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd032",
+    "Rider": "Darwin Atapuma (Col)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd033",
+    "Rider": "Matteo Bono (Ita)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd034",
+    "Rider": "Kristijan Durasek (Cro)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd035",
+    "Rider": "Vegard Stake Laengen (Nor)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd036",
+    "Rider": "Manuele Mori (Ita)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd037",
+    "Rider": "Marco Marcato (Ita)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd038",
+    "Rider": "Ben Swift (GBr)"
+  },
+  {
+    "Team": "UAE Team Emirates",
+    "team_code": "UAE",
+    "rider_code": "rd039",
+    "Rider": "Diego Ulissi (Ita)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd041",
+    "Rider": "Romain Bardet (Fra)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd042",
+    "Rider": "Pierre Latour (Fra)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd043",
+    "Rider": "Alexis Vuillermoz (Fra)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd044",
+    "Rider": "Oliver Naesen (Bel)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd045",
+    "Rider": "Mathias Frank (Swi)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd046",
+    "Rider": "Axel Domont (Fra)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd047",
+    "Rider": "Jan Bakelants (Bel)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd048",
+    "Rider": "Ben Gastauer (Lux)"
+  },
+  {
+    "Team": "Ag2r La Mondiale",
+    "team_code": "AG2",
+    "rider_code": "rd049",
+    "Rider": "Cyril Gautier (Fra)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd051",
+    "Rider": "Primoz Roglic (Slo)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd052",
+    "Rider": "Tom Leezer (Ned)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd053",
+    "Rider": "George Bennett (NZl)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd054",
+    "Rider": "Dylan Groenewegen (Ned)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd055",
+    "Rider": "Robert Gesink (Ned)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd056",
+    "Rider": "Jos van Emden (Ned)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd057",
+    "Rider": "Paul Martens (Ger)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd058",
+    "Rider": "Timo Roosen (Ned)"
+  },
+  {
+    "Team": "LottoNL-Jumbo",
+    "team_code": "LTN",
+    "rider_code": "rd059",
+    "Rider": "Robert Wagner (Ger)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd061",
+    "Rider": "Alberto Contador (Esp)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd062",
+    "Rider": "John Degenkolb (Ger)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd063",
+    "Rider": "Koen de Kort (Ned)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd064",
+    "Rider": "Fabio Felline (Ita)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd065",
+    "Rider": "Michal Gogl (Aut)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd066",
+    "Rider": "Markel Irizar (Esp)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd067",
+    "Rider": "Bauke Mollema (Ned)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd068",
+    "Rider": "Jarlinson Pantano (Col)"
+  },
+  {
+    "Team": "Trek-Segofrego",
+    "team_code": "TRK",
+    "rider_code": "rd069",
+    "Rider": "Haimar Zubeldia (Esp)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd071",
+    "Rider": "Sonny Colbrelli (Ita)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd072",
+    "Rider": "Ion Izagirre (Esp)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd073",
+    "Rider": "Yukiya Arashiro (Jpn)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd074",
+    "Rider": "Grega Bole (Slo)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd075",
+    "Rider": "Borut Bozic (Slo)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd076",
+    "Rider": "Janez Brajkovic (Slo)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd077",
+    "Rider": "Ondrej Cink (Cze)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd078",
+    "Rider": "Tsgabu Grmay (Eri)"
+  },
+  {
+    "Team": "Bahrain Merida",
+    "team_code": "BAH",
+    "rider_code": "rd079",
+    "Rider": "Javier Moreno (Esp)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd081",
+    "Rider": "Andrew Talansky (USA)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd082",
+    "Rider": "Alberto Bettiol (Ita)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd083",
+    "Rider": "Patrick Bevin (NZl)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd084",
+    "Rider": "Nathan Brown (USA)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd085",
+    "Rider": "Simon Clarke (Aus)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd086",
+    "Rider": "Taylor Phinney (USA)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd087",
+    "Rider": "Pierre Rolland (Fra)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd088",
+    "Rider": "Rigoberto Uran (Col)"
+  },
+  {
+    "Team": "Cannondale-Drapac",
+    "team_code": "CAN",
+    "rider_code": "rd089",
+    "Rider": "Dylan Van Baarle (Ned)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd091",
+    "Rider": "Richie Porte (Aus)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd092",
+    "Rider": "Damiano Caruso (Ita)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd093",
+    "Rider": "Stefan Kung (Sui)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd094",
+    "Rider": "Nicholas Roche (Irl)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd095",
+    "Rider": "Alessandro De Marchi (Ita)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd096",
+    "Rider": "Amael Moinard (Fra)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd097",
+    "Rider": "Michael Schar (Sui)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd098",
+    "Rider": "Greg Van Avermaet (Bel)"
+  },
+  {
+    "Team": "BMC Racing",
+    "team_code": "BMC",
+    "rider_code": "rd099",
+    "Rider": "Danilo Wyss (Sui)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd101",
+    "Rider": "Mark Cavendish (GBr)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd102",
+    "Rider": "Steve Cummings (GBr)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd103",
+    "Rider": "Edvald Boasson Hagen (Nor)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd104",
+    "Rider": "Bernhard Eisel (Aut)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd105",
+    "Rider": "Reinardt Janse van Rensburg (RSA)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd106",
+    "Rider": "Serge Pauwels (Bel)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd107",
+    "Rider": "Mark Renshaw (Aus)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd108",
+    "Rider": "Scott Thwaites (GBr)"
+  },
+  {
+    "Team": "Dimension Data",
+    "team_code": "DIM",
+    "rider_code": "rd109",
+    "Rider": "Jaco Venter (RSA)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd111",
+    "Rider": "Michael Matthews (Aus)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd112",
+    "Rider": "Nikias Arndt (Ger)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd113",
+    "Rider": "Warren Barguil (Fra)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd114",
+    "Rider": "Roy Curvers (Ned)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd115",
+    "Rider": "Simon Geschke (Ger)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd116",
+    "Rider": "Ramon Sinkeldam (Ned)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd117",
+    "Rider": "Laurens ten Dam (Ned)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd118",
+    "Rider": "Mike Teunissen (Ned)"
+  },
+  {
+    "Team": "Team Sunweb",
+    "team_code": "SUN",
+    "rider_code": "rd119",
+    "Rider": "Albert Timmer (Ned)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd121",
+    "Rider": "Thibaut Pinot (Fra)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd122",
+    "Rider": "Davide Cimolai (Ita)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd123",
+    "Rider": "Mickael Delage (Fra)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd124",
+    "Rider": "Arnaud Demare (Fra)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd125",
+    "Rider": "Jacopo Guarnieri (Ita)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd126",
+    "Rider": "Ignatas Konovalovas (Ltu)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd127",
+    "Rider": "Olivier Le Gac (Fra)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd128",
+    "Rider": "Rudy Molard (Fra)"
+  },
+  {
+    "Team": "FDJ",
+    "team_code": "FDJ",
+    "rider_code": "rd129",
+    "Rider": "Arthur Vichot (Fra)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd131",
+    "Rider": "Peter Sagan (Svk)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd132",
+    "Rider": "Emanuel Buchmann (Ger)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd133",
+    "Rider": "Maciej Bodnar (Pol)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd134",
+    "Rider": "Marcus Burghardt (Ger)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd135",
+    "Rider": "Rafa Majka (Pol)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd136",
+    "Rider": "Jay McCarthy (Aus)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd137",
+    "Rider": "Pawel Poljanski (Pol)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd138",
+    "Rider": "Juraj Sagan (Svk)"
+  },
+  {
+    "Team": "Bore-Hansgrohe",
+    "team_code": "BOR",
+    "rider_code": "rd139",
+    "Rider": "Rudiger Selig (Ger)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd141",
+    "Rider": "Alexander Kristoff (Nor)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd142",
+    "Rider": "Tony Martin (Ger)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd143",
+    "Rider": "Maurits Lammertink (Ned)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd144",
+    "Rider": "Rick Zabel (Ger)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd145",
+    "Rider": "Reto Hollenstein (Sui)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd146",
+    "Rider": "Marco Haller (Aut)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd147",
+    "Rider": "Robert Kiserlovski (Cro)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd148",
+    "Rider": "Tiago Machado (Por)"
+  },
+  {
+    "Team": "Katusha-Alpecin",
+    "team_code": "KAT",
+    "rider_code": "rd149",
+    "Rider": "Nils Politt (Ger)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd151",
+    "Rider": "Maxime Bouet (Fra)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd152",
+    "Rider": "Eduardo Sepulveda (Arg)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd153",
+    "Rider": "Brice Feillu (Fra)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd154",
+    "Rider": "Romain Hardy (Fra)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd155",
+    "Rider": "Florian Vachon (Fra)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd156",
+    "Rider": "Daniel McLay (GBr)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd157",
+    "Rider": "Pierre-Luc Perichon (Fra)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd158",
+    "Rider": "Elie Gesbert (Fra)"
+  },
+  {
+    "Team": "Fortuneo-Vital Concept",
+    "team_code": "FOR",
+    "rider_code": "rd159",
+    "Rider": "Laurent Pichon (Fra)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd161",
+    "Rider": "Andre Greipel (Ger)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd162",
+    "Rider": "Lars Bak (Den)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd163",
+    "Rider": "Tiesj Benoot (Bel)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd164",
+    "Rider": "Thomas De Gendt (Bel)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd165",
+    "Rider": "Tony Gallopin (Fra)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd166",
+    "Rider": "Adam Hansen (Aus)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd167",
+    "Rider": "Jurgen Roelandts (Bel)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd168",
+    "Rider": "Marcel Sieberg (Ger)"
+  },
+  {
+    "Team": "Lotto-Soudal",
+    "team_code": "LTS",
+    "rider_code": "rd169",
+    "Rider": "Tim Wellens (Bel)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd171",
+    "Rider": "Thomas Voeckler (Fra)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd172",
+    "Rider": "Sylvain Chavanel (Fra)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd173",
+    "Rider": "Lilian Calmejane (Fra)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd174",
+    "Rider": "Adrien Petit (Fra)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd175",
+    "Rider": "Romain Sicard (Fra)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd176",
+    "Rider": "Perrig Quemeneur (Fra)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd177",
+    "Rider": "Angelo Tulik (Fra)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd178",
+    "Rider": "Thomas Boudat (Fra)"
+  },
+  {
+    "Team": "Direct Energie",
+    "team_code": "DIR",
+    "rider_code": "rd179",
+    "Rider": "Yohann Gene (Fra)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd181",
+    "Rider": "Marcel Kittel (Ger)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd182",
+    "Rider": "Daniel Martin (Irl)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd183",
+    "Rider": "Fabio Sabatini (Ita)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd184",
+    "Rider": "Julien Vermote (Bel)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd185",
+    "Rider": "Jack Bauer (NZl)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd186",
+    "Rider": "Matteo Trentin (Ita)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd187",
+    "Rider": "Zdenek Stybar (Cze)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd188",
+    "Rider": "Gianluca Brambilla (Ita)"
+  },
+  {
+    "Team": "Quick-Step Floors",
+    "team_code": "QUI",
+    "rider_code": "rd189",
+    "Rider": "Philippe Gilbert (Bel)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd191",
+    "Rider": "Nacer Bouhanni (Fra)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd192",
+    "Rider": "Nicolas Edet (Fra)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd193",
+    "Rider": "Dimitri Claeys (Bel)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd194",
+    "Rider": "Julien Simon (Fra)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd195",
+    "Rider": "Christophe Laporte (Fra)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd196",
+    "Rider": "Cyril Lemoine (Fra)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd197",
+    "Rider": "Luis Angel Mate (Esp)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd198",
+    "Rider": "Daniel Navarro (Esp)"
+  },
+  {
+    "Team": "Cofidis Solutions Credits",
+    "team_code": "COF",
+    "rider_code": "rd199",
+    "Rider": "Florian Senechal (Fra)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd201",
+    "Rider": "Simon Yates (GBr)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd202",
+    "Rider": "Michael Albasini (Sui)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd203",
+    "Rider": "Esteban Chaves (Col)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd204",
+    "Rider": "Luke Durbridge (Aus)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd205",
+    "Rider": "Mathew Hayman (Aus)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd206",
+    "Rider": "Damien Howson (Aus)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd207",
+    "Rider": "Daryl Impey (RSA)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd208",
+    "Rider": "Jens Keulekeire (Bel)"
+  },
+  {
+    "Team": "Orica-Scott",
+    "team_code": "ORI",
+    "rider_code": "rd209",
+    "Rider": "Roman Kreuziger (Cze)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd211",
+    "Rider": "Yoann Offredo (Fra)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd212",
+    "Rider": "Frederik Backaert (Bel)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd213",
+    "Rider": "Guillaume Van Keirsbulck (Bel)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd214",
+    "Rider": "Guillaume Martin (Fra)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd215",
+    "Rider": "Marco Minnaard (Ned)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd216",
+    "Rider": "Andrea Pasqualon (Ita)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd217",
+    "Rider": "Pieter Vanspeybroeck (Bel)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd218",
+    "Rider": "Thomas Degand (Bel)"
+  },
+  {
+    "Team": "Wanty-Groupe Gobert",
+    "team_code": "WAN",
+    "rider_code": "rd219",
+    "Rider": "Dion Smith (NZl)"
+  }
+]}

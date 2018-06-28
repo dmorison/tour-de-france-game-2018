@@ -1,0 +1,172 @@
+{
+	"teams": [
+		{
+			"team_name": "Sky",
+			"team_code": "SKY",
+			"riders": [
+				{
+					"rider_name": "Chris Froome (GBr)",
+					"rider_code": "rd001"
+				},
+				{
+					"rider_name": "Sergio Henao (Col)",
+					"rider_code": "rd002"
+				},
+				{
+					"rider_name": "Christian Knees (Ger)",
+					"rider_code": "rd003"
+				},
+				{
+					"rider_name": "Mikel Landa (Esp)",
+					"rider_code": "rd004"
+				},
+				{
+					"rider_name": "Mikel Nieve (Esp)",
+					"rider_code": "rd005"
+				},
+				{
+					"rider_name": "Michal Kwiatkowski (Pol)",
+					"rider_code": "rd006"
+				},
+				{
+					"rider_name": "Luke Rowe (GBr)",
+					"rider_code": "rd007"
+				},
+				{
+					"rider_name": "Geraint Thomas (GBr)",
+					"rider_code": "rd008"
+				},
+				{
+					"rider_name": "Vasil Kiryienka (Blr)",
+					"rider_code": "rd009"
+				}
+			]
+		},
+		{
+			"team_name": "Movistar",
+			"team_code": "MOV",
+			"riders": [
+				{
+					"rider_name": "Nairo Quintana (Col)",
+					"rider_code": "rd011"
+				},
+				{
+					"rider_name": "Andrey Amador (Crc)",
+					"rider_code": "rd012"
+				},
+				{
+					"rider_name": "Daniele Bennati (Ita)",
+					"rider_code": "rd013"
+				},
+				{
+					"rider_name": "Carlos Betancur (Col)",
+					"rider_code": "rd014"
+				},
+				{
+					"rider_name": "Jonathan Castroviejo (Esp)",
+					"rider_code": "rd015"
+				},
+				{
+					"rider_name": "Imanol Erviti (Esp)",
+					"rider_code": "rd016"
+				},
+				{
+					"rider_name": "Jesus Herrada (Esp)",
+					"rider_code": "rd017"
+				},
+				{
+					"rider_name": "Jasha Sutterlin (Ger)",
+					"rider_code": "rd018"
+				},
+				{
+					"rider_name": "Alejandro Valverde (Esp)",
+					"rider_code": "rd019"
+				}
+			]
+		},
+		{
+			"team_name": "Astana",
+			"team_code": "AST",
+			"riders": [
+				{
+					"rider_name": "Fabio Aru (Ita)",
+					"rider_code": "rd021"
+				},
+				{
+					"rider_name": "Jakob Fuglsang (Den)",
+					"rider_code": "rd022"
+				},
+				{
+					"rider_name": "Michael Valgren (Den)",
+					"rider_code": "rd023"
+				},
+				{
+					"rider_name": "Alexey Lutsenko (Kaz)",
+					"rider_code": "rd024"
+				},
+				{
+					"rider_name": "Andriy Grivko (Ukr)",
+					"rider_code": "rd025"
+				},
+				{
+					"rider_name": "Andrey Zeits (Kaz)",
+					"rider_code": "rd026"
+				},
+				{
+					"rider_name": "Dmitriy Gruzdev (Kaz)",
+					"rider_code": "rd027"
+				},
+				{
+					"rider_name": "Dario Cataldo (Ita)",
+					"rider_code": "rd028"
+				},
+				{
+					"rider_name": "Bakhtyar Kozhatayev (Kaz)",
+					"rider_code": "rd029"
+				}
+			]
+		},
+		{
+			"team_name": "UAE Team Emirates",
+			"team_code": "UAE",
+			"riders": [
+				{
+					"rider_name": "Louis Meintjes (RSA)",
+					"rider_code": "rd031"
+				},
+				{
+					"rider_name": "Darwin Atapuma (Col)",
+					"rider_code": "rd032"
+				},
+				{
+					"rider_name": "Matteo Bono (Ita)",
+					"rider_code": "rd033"
+				},
+				{
+					"rider_name": "Kristijan Durasek (Cro)",
+					"rider_code": "rd034"
+				},
+				{
+					"rider_name": "Vegard Stake Laengen (Nor)",
+					"rider_code": "rd035"
+				},
+				{
+					"rider_name": "Manuele Mori (Ita)",
+					"rider_code": "rd036"
+				},
+				{
+					"rider_name": "Marco Marcato (Ita)",
+					"rider_code": "rd037"
+				},
+				{
+					"rider_name": "Ben Swift (GBr)",
+					"rider_code": "rd038"
+				},
+				{
+					"rider_name": "Diego Ulissi (Ita)",
+					"rider_code": "rd039"
+				}
+			]
+		}
+	]
+}
