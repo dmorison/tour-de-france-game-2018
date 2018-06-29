@@ -3,8 +3,16 @@ body {
   padding: 0;
 }
 
-.teams-wrapper {
+.player-selection {
+	padding: 20px;
+}
 
+.teams-wrapper {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 }
 
 .team-item {
@@ -13,9 +21,14 @@ body {
 	padding: 20px;
 
 	.team-name {
-		font-size: 20px;
 		font-weight: bold;
 		margin-bottom: 6px;
+	}
+
+	.warning-msg {
+		font-size: 12px;
+		color: red;
+		display: block;
 	}
 
 	.rider-name {
@@ -26,4 +39,15 @@ body {
 		}
 	}
 
+}
+
+.code-block {
+	margin-top: 40px;
+	
+	> div {
+		padding: 10px;
+		background-color: yellow;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
