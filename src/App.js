@@ -10,18 +10,11 @@ class App extends Component {
 		this.handleTeamSelect = this.handleTeamSelect.bind(this);
 		this.handleRiderSelect = this.handleRiderSelect.bind(this);
 		this.handleLeadRiderSelect = this.handleLeadRiderSelect.bind(this);
-		// this.handleTeamDisabled = this.handleTeamDisabled.bind(this);
 
 		this.state = {
 			team: null,
-			lead_rider_1: {
-				rider_team: null,
-				rider_name: null
-			},
-			lead_rider_2: {
-				rider_team: null,
-				rider_name: null
-			},
+			lead_rider_1: null,
+			lead_rider_2: null,
 			rider_3: null,
 			rider_4: null,
 			rider_5: null,
@@ -29,89 +22,132 @@ class App extends Component {
 		}
 	}
 
-	handleTeamSelect(event) {
-		console.log(event.target.value);
-		!this.state.team ? this.setState({ team: event.target.value }) : this.setState({ team: null });
+	handleLeadRiderSelect(event) {
+		console.log(event.target.id);
+		let leadrider_1 = this.state.lead_rider_1;
+		let leadrider_2 = this.state.lead_rider_2;
+
+		switch (event.target.id) {
+			case leadrider_1:
+				leadrider_1 = null;
+				break;
+			case leadrider_2:
+				leadrider_2 = null;
+				break;
+			default:
+				if (!leadrider_1) {
+					leadrider_1 = event.target.id;
+				} else if (!leadrider_2) {
+					leadrider_2 = event.target.id;
+				} else {
+					console.log("Sorry you already have 2 lead riders");
+				}
+				break;
+		}
+
+		this.setState({
+			lead_rider_1: leadrider_1,
+			lead_rider_2: leadrider_2
+		});
 	}
 
 	handleRiderSelect(event) {
-		console.log('domestique: ' + event.target.value);
-	}
+		console.log(event.target.id);
+		let rider_3 = this.state.rider_3;
+		let rider_4 = this.state.rider_4;
+		let rider_5 = this.state.rider_5;
+		let rider_6 = this.state.rider_6;
 
-	handleLeadRiderSelect(rider, team) {
-		console.log('lead rider: ' + rider + ' rider team: ' + team);
-		switch (rider) {
-			case this.state.lead_rider_1.rider_name:
-				this.setState({
-					leade_rider_1: {
-						rider_team: null,
-						rider_name: null
-					}
-				});
+		switch (event.target.id) {
+			case rider_3:
+				rider_3 = null;
 				break;
-			case this.state.lead_rider_2.rider_name:
-				this.setState({
-					leade_rider_2: {
-						rider_team: null,
-						rider_name: null
-					}
-				});
+			case rider_4:
+				rider_4 = null;
+				break;
+			case rider_5:
+				rider_5 = null;
+				break;
+			case rider_6:
+				rider_6 = null;
+				break;
+			default:
+				if (!rider_3) {
+					rider_3 = event.target.id;
+				} else if (!rider_4) {
+					rider_4 = event.target.id;
+				} else if (!rider_5) {
+					rider_5 = event.target.id;
+				} else if (!rider_6) {
+					rider_6 = event.target.id;
+				} else {
+					console.log("You already have all your riders");
+				}
 				break;
 		}
 
-		if (this.state.lead_rider_1.rider_name !== rider && this.state.lead_rider_1.rider_name) {
-			this.setState({
-				lead_rider_1: {
-					rider_team: team,
-					rider_name: rider
-				}
-			});
-		} else if (!this.state.lead_rider_2.rider_name) {
-			this.setState({
-				lead_rider_2: {
-					rider_team: team,
-					rider_name: rider
-				}
-			});
-		}
+		this.setState({
+			rider_3: rider_3,
+			rider_4: rider_4,
+			rider_5: rider_5,
+			rider_6: rider_6
+		});
 	}
 
-	// handleTeamDisabled() {
-	// 	console.log(rider_code);
-	// }
+	handleTeamSelect(event) {
+		console.log(event.target.id);
+		if (this.state.team === event.target.id) {
+			this.setState({ team: null });
+		} else {
+			!this.state.team ? this.setState({ team: event.target.id }) : console.log("you already have a team selected");
+		}
+	}
 
 	renderRiders() {
 		const teams = startList.teams;
 		console.log(teams);
+
 		return teams.map((team, index) => {
 			return (
 				<div className="team-item">
-					<label className="team-name">
-						<input
-							type="checkbox"
+					<div>
+						<a
+							href="#"
 							id={team.team_code}
-							value={team.team_code}
-							onChange={this.handleTeamSelect}
-							disabled={this.state.lead_rider_1.rider_team === team.team_code || this.state.lead_rider_2.rider_team === team.team_code}
-						/>
-						{team.team_name}
-					</label>
+							onClick={this.handleTeamSelect}
+						>
+							{team.team_name}
+						</a>
+					</div>
 					<div>
 						{
 							team.riders.map((rider, index) => {
 								{/*console.log(team.team_code);*/}
-								return (
-									<label className="rider-name">
-										<input
-											type="checkbox"
-											id={rider.rider_code}
-											value={rider.rider_code}
-											onChange={index === 0 ? (a, b) => this.handleLeadRiderSelect(rider.rider_code, team.team_code) : this.handleRiderSelect}
-											disabled={index === 0 ? this.state.team === team.team_code : null}
-										/>
-										{rider.rider_name}
-									</label>
-								);
+								if (index === 0) {
+									return (
+										<div className="rider-name">
+											<a
+												href="#"
+												id={rider.rider_code}
+												onClick={this.handleLeadRiderSelect}
+											>
+												{rider.rider_name}
+											</a>
+										</div>
+									);
+								} else {
+									return (
+										<div className="rider-name">
+											<a
+												href="#"
+												id={rider.rider_code}
+												onClick={this.handleRiderSelect}
+											>
+												{rider.rider_name}
+											</a>
+										</div>
+									);
+								}
 							})
 						}
 					</div>
@@ -123,6 +159,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      	<div>
+      		Player name: <br/>
+      		Team: {this.state.team} <br/>
+      		Lead rider 1: {this.state.lead_rider_1} <br/>
+      		Lead rider 2: {this.state.lead_rider_2} <br/>
+      		Rider 3: {this.state.rider_3} <br/>
+      		Rider 4: {this.state.rider_4} <br/>
+      		Rider 5: {this.state.rider_5} <br/>
+      		Rider 6: {this.state.rider_6} <br/>
+      	</div>
       	<form>
       		<div className="teams-wrapper">
       	 		{this.renderRiders()}
