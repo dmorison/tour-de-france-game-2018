@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 .player-selection {
 	padding: 20px;
 }
@@ -22,6 +26,7 @@ body {
 
 	.team-name {
 		font-weight: bold;
+		text-transform: uppercase;
 		margin-bottom: 6px;
 	}
 

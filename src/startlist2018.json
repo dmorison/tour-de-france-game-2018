@@ -1,0 +1,840 @@
+{
+   "teams":[
+      {
+         "team_name":"AG2R La Mondiale",
+         "team_code":"AG2",
+         "riders":[
+            {
+               "rider_name":"Romain Bardet",
+               "rider_code":"rd001"
+            },
+            {
+               "rider_name":"Silvan Dillier",
+               "rider_code":"rd002"
+            },
+            {
+               "rider_name":"Axel Domont",
+               "rider_code":"rd003"
+            },
+            {
+               "rider_name":"Tony Gallopin",
+               "rider_code":"rd004"
+            },
+            {
+               "rider_name":"Mathias Frank",
+               "rider_code":"rd005"
+            },
+            {
+               "rider_name":"Oliver Naesen",
+               "rider_code":"rd006"
+            },
+            {
+               "rider_name":"Pierre Latour",
+               "rider_code":"rd007"
+            },
+            {
+               "rider_name":"Alexis Vuillermoz",
+               "rider_code":"rd008"
+            }
+         ]
+      },
+      {
+         "team_name":"Astana Pro Team",
+         "team_code":"AST",
+         "riders":[
+            {
+               "rider_name":"Jakob Fuglsang",
+               "rider_code":"rd011"
+            },
+            {
+               "rider_name":"Luis Leon Sanchez",
+               "rider_code":"rd012"
+            },
+            {
+               "rider_name":"Dmitriy Gruzdev",
+               "rider_code":"rd013"
+            },
+            {
+               "rider_name":"Magnus Cort",
+               "rider_code":"rd014"
+            },
+            {
+               "rider_name":"Omar Fraile",
+               "rider_code":"rd015"
+            },
+            {
+               "rider_name":"Jesper Hansen",
+               "rider_code":"rd016"
+            },
+            {
+               "rider_name":"Tanel Kangert",
+               "rider_code":"rd017"
+            },
+            {
+               "rider_name":"Michael Valgren Andersen",
+               "rider_code":"rd018"
+            }
+         ]
+      },
+      {
+         "team_name":"Bahrain Merida",
+         "team_code":"BAH",
+         "riders":[
+            {
+               "rider_name":"Vincenzo Nibali",
+               "rider_code":"rd021"
+            },
+            {
+               "rider_name":"Domenico Pozzovivo",
+               "rider_code":"rd022"
+            },
+            {
+               "rider_name":"Gorka Izagirre",
+               "rider_code":"rd023"
+            },
+            {
+               "rider_name":"Ion Izagirre",
+               "rider_code":"rd024"
+            },
+            {
+               "rider_name":"Sonny Colbrelli",
+               "rider_code":"rd025"
+            },
+            {
+               "rider_name":"Heinrich Haussler",
+               "rider_code":"rd026"
+            },
+            {
+               "rider_name":"Kristijan Koren",
+               "rider_code":"rd027"
+            },
+            {
+               "rider_name":"Franco Pellizotti",
+               "rider_code":"rd028"
+            }
+         ]
+      },
+      {
+         "team_name":"BMC Racing Team",
+         "team_code":"BMC",
+         "riders":[
+            {
+               "rider_name":"Richie Porte",
+               "rider_code":"rd031"
+            },
+            {
+               "rider_name":"Greg Van Avermaet",
+               "rider_code":"rd032"
+            },
+            {
+               "rider_name":"Tejay Van Garderen",
+               "rider_code":"rd033"
+            },
+            {
+               "rider_name":"Patrick Bevin",
+               "rider_code":"rd034"
+            },
+            {
+               "rider_name":"Damiano Caruso",
+               "rider_code":"rd035"
+            },
+            {
+               "rider_name":"Simon Gerrans",
+               "rider_code":"rd036"
+            },
+            {
+               "rider_name":"Stefan Kung",
+               "rider_code":"rd037"
+            },
+            {
+               "rider_name":"Michael Schar",
+               "rider_code":"rd038"
+            }
+         ]
+      },
+      {
+         "team_name":"BORA-hansgrohe",
+         "team_code":"BOR",
+         "riders":[
+            {
+               "rider_name":"Peter Sagan",
+               "rider_code":"rd041"
+            },
+            {
+               "rider_name":"Maciej Bodnar",
+               "rider_code":"rd042"
+            },
+            {
+               "rider_name":"Markus Burghardt",
+               "rider_code":"rd043"
+            },
+            {
+               "rider_name":"Rafal Majka",
+               "rider_code":"rd044"
+            },
+            {
+               "rider_name":"Gregor Muhlberger",
+               "rider_code":"rd045"
+            },
+            {
+               "rider_name":"Daniel Oss",
+               "rider_code":"rd046"
+            },
+            {
+               "rider_name":"Pawel Poljanski",
+               "rider_code":"rd047"
+            },
+            {
+               "rider_name":"Lukas Postlberger",
+               "rider_code":"rd048"
+            }
+         ]
+      },
+      {
+         "team_name":"Dimension Data",
+         "team_code":"DIM",
+         "riders":[
+            {
+               "rider_name":"Mark Cavendish",
+               "rider_code":"rd051"
+            },
+            {
+               "rider_name":"Edvald Boasson Hagen",
+               "rider_code":"rd052"
+            },
+            {
+               "rider_name":"Tom-Jelte Slagter",
+               "rider_code":"rd053"
+            },
+            {
+               "rider_name":"Reinardt J van Rensburg",
+               "rider_code":"rd054"
+            },
+            {
+               "rider_name":"Serge Pauwels",
+               "rider_code":"rd055"
+            },
+            {
+               "rider_name":"Mark Renshaw",
+               "rider_code":"rd056"
+            },
+            {
+               "rider_name":"Jay Thomson",
+               "rider_code":"rd057"
+            },
+            {
+               "rider_name":"Julien Vermote",
+               "rider_code":"rd058"
+            }
+         ]
+      },
+      {
+         "team_name":"Groupama-FDJ",
+         "team_code":"FDJ",
+         "riders":[
+            {
+               "rider_name":"Arnaud Demare",
+               "rider_code":"rd061"
+            },
+            {
+               "rider_name":"Ramon Sinkeldam",
+               "rider_code":"rd062"
+            },
+            {
+               "rider_name":"David Gaudu",
+               "rider_code":"rd063"
+            },
+            {
+               "rider_name":"Jacopo Guarnieri",
+               "rider_code":"rd064"
+            },
+            {
+               "rider_name":"Olivier Le Gac",
+               "rider_code":"rd065"
+            },
+            {
+               "rider_name":"Tobias Ludvigsson",
+               "rider_code":"rd066"
+            },
+            {
+               "rider_name":"Rudy Molard",
+               "rider_code":"rd067"
+            },
+            {
+               "rider_name":"Arthur Vichot",
+               "rider_code":"rd068"
+            }
+         ]
+      },
+      {
+         "team_name":"Lotto NL-Jumbo",
+         "team_code":"LOT",
+         "riders":[
+            {
+               "rider_name":"Primoz Roglic",
+               "rider_code":"rd071"
+            },
+            {
+               "rider_name":"Dylan Groenewegen",
+               "rider_code":"rd072"
+            },
+            {
+               "rider_name":"Steven Kruijswijk",
+               "rider_code":"rd073"
+            },
+            {
+               "rider_name":"Robert Gesink",
+               "rider_code":"rd074"
+            },
+            {
+               "rider_name":"Amund Grondahl Jansen",
+               "rider_code":"rd075"
+            },
+            {
+               "rider_name":"Paul Martens",
+               "rider_code":"rd076"
+            },
+            {
+               "rider_name":"Timo Roosen",
+               "rider_code":"rd077"
+            },
+            {
+               "rider_name":"Antwan Tolhoek",
+               "rider_code":"rd078"
+            }
+         ]
+      },
+      {
+         "team_name":"Mitchelton-Scott",
+         "team_code":"MIT",
+         "riders":[
+            {
+               "rider_name":"Adam Yates",
+               "rider_code":"rd081"
+            },
+            {
+               "rider_name":"Mikel Nieve",
+               "rider_code":"rd082"
+            },
+            {
+               "rider_name":"Jack Bauer",
+               "rider_code":"rd083"
+            },
+            {
+               "rider_name":"Luke Durbridge",
+               "rider_code":"rd084"
+            },
+            {
+               "rider_name":"Mathew Hayman",
+               "rider_code":"rd085"
+            },
+            {
+               "rider_name":"Michael Hepburn",
+               "rider_code":"rd086"
+            },
+            {
+               "rider_name":"Damien Howson",
+               "rider_code":"rd087"
+            },
+            {
+               "rider_name":"Daryl Impey",
+               "rider_code":"rd088"
+            }
+         ]
+      },
+      {
+         "team_name":"Movistar Team",
+         "team_code":"MOV",
+         "riders":[
+            {
+               "rider_name":"Nairo Quintana",
+               "rider_code":"rd091"
+            },
+            {
+               "rider_name":"Mikel Landa",
+               "rider_code":"rd092"
+            },
+            {
+               "rider_name":"Alejandro Valverde",
+               "rider_code":"rd093"
+            },
+            {
+               "rider_name":"Jose Joaquin Rojas",
+               "rider_code":"rd094"
+            },
+            {
+               "rider_name":"Marc Soler",
+               "rider_code":"rd095"
+            },
+            {
+               "rider_name":"Andrey Amador",
+               "rider_code":"rd096"
+            },
+            {
+               "rider_name":"Daniele Bennati",
+               "rider_code":"rd097"
+            },
+            {
+               "rider_name":"Imanol Erviti",
+               "rider_code":"rd098"
+            }
+         ]
+      },
+      {
+         "team_name":"Lotto Soudal",
+         "team_code":"NEW",
+         "riders":[
+            {
+               "rider_name":"Andre Greipel",
+               "rider_code":"rd101"
+            },
+            {
+               "rider_name":"Tiesj Benoot",
+               "rider_code":"rd102"
+            },
+            {
+               "rider_name":"Jasper De Buyst",
+               "rider_code":"rd103"
+            },
+            {
+               "rider_name":"Thomas De Gendt",
+               "rider_code":"rd104"
+            },
+            {
+               "rider_name":"Jens Keukeleire",
+               "rider_code":"rd105"
+            },
+            {
+               "rider_name":"Tomasz Marczsynski",
+               "rider_code":"rd106"
+            },
+            {
+               "rider_name":"Marcel Sieberg",
+               "rider_code":"rd107"
+            },
+            {
+               "rider_name":"Jelle Vanendert",
+               "rider_code":"rd108"
+            }
+         ]
+      },
+      {
+         "team_name":"Quick-Step Floors",
+         "team_code":"QUI",
+         "riders":[
+            {
+               "rider_name":"Niki Terpstra",
+               "rider_code":"rd111"
+            },
+            {
+               "rider_name":"Julian Alaphilippe",
+               "rider_code":"rd112"
+            },
+            {
+               "rider_name":"Tim Declercq",
+               "rider_code":"rd113"
+            },
+            {
+               "rider_name":"Fernando Gaviria",
+               "rider_code":"rd114"
+            },
+            {
+               "rider_name":"Philippe Gilbert",
+               "rider_code":"rd115"
+            },
+            {
+               "rider_name":"Yves Lampaert",
+               "rider_code":"rd116"
+            },
+            {
+               "rider_name":"Maximiliano Richeze",
+               "rider_code":"rd117"
+            },
+            {
+               "rider_name":"Bob Jungels",
+               "rider_code":"rd118"
+            }
+         ]
+      },
+      {
+         "team_name":"EF Education-Drapac Cannondale",
+         "team_code":"EFE",
+         "riders":[
+            {
+               "rider_name":"Rigoberto Uran",
+               "rider_code":"rd121"
+            },
+            {
+               "rider_name":"Sep Vanmarcke",
+               "rider_code":"rd122"
+            },
+            {
+               "rider_name":"Taylor Phinney",
+               "rider_code":"rd123"
+            },
+            {
+               "rider_name":"Pierre Rolland",
+               "rider_code":"rd124"
+            },
+            {
+               "rider_name":"Simon Clarke",
+               "rider_code":"rd125"
+            },
+            {
+               "rider_name":"Lawson Craddock",
+               "rider_code":"rd126"
+            },
+            {
+               "rider_name":"Daniel Felipe Martínez",
+               "rider_code":"rd127"
+            },
+            {
+               "rider_name":"Tom Scully",
+               "rider_code":"rd128"
+            }
+         ]
+      },
+      {
+         "team_name":"Team Katusha-Alpecin",
+         "team_code":"KAT",
+         "riders":[
+            {
+               "rider_name":"Marcel Kittel",
+               "rider_code":"rd131"
+            },
+            {
+               "rider_name":"Tony Martin",
+               "rider_code":"rd132"
+            },
+            {
+               "rider_name":"Ilnur Zakarin",
+               "rider_code":"rd133"
+            },
+            {
+               "rider_name":"Ian Boswell",
+               "rider_code":"rd134"
+            },
+            {
+               "rider_name":"Robert Kiserlovski",
+               "rider_code":"rd135"
+            },
+            {
+               "rider_name":"Pavel Kochetkov",
+               "rider_code":"rd136"
+            },
+            {
+               "rider_name":"Nils Politt",
+               "rider_code":"rd137"
+            },
+            {
+               "rider_name":"Rick Zabel",
+               "rider_code":"rd138"
+            }
+         ]
+      },
+      {
+         "team_name":"Team Sky",
+         "team_code":"SKY",
+         "riders":[
+            {
+               "rider_name":"Chris Froome",
+               "rider_code":"rd141"
+            },
+            {
+               "rider_name":"Gianni Moscon",
+               "rider_code":"rd142"
+            },
+            {
+               "rider_name":"Geraint Thomas",
+               "rider_code":"rd143"
+            },
+            {
+               "rider_name":"Michal Kwiatkowski",
+               "rider_code":"rd144"
+            },
+            {
+               "rider_name":"Wout Poels",
+               "rider_code":"rd145"
+            },
+            {
+               "rider_name":"Egan Bernal",
+               "rider_code":"rd146"
+            },
+            {
+               "rider_name":"Jonathan Castroviejo",
+               "rider_code":"rd147"
+            },
+            {
+               "rider_name":"Luke Rowe",
+               "rider_code":"rd148"
+            }
+         ]
+      },
+      {
+         "team_name":"Team Sunweb",
+         "team_code":"SUN",
+         "riders":[
+            {
+               "rider_name":"Tom Dumoulin",
+               "rider_code":"rd151"
+            },
+            {
+               "rider_name":"Laurens ten Dam",
+               "rider_code":"rd152"
+            },
+            {
+               "rider_name":"Michael Matthews",
+               "rider_code":"rd153"
+            },
+            {
+               "rider_name":"Soren Kragh Andersen",
+               "rider_code":"rd154"
+            },
+            {
+               "rider_name":"Nikias Arndt",
+               "rider_code":"rd155"
+            },
+            {
+               "rider_name":"Simon Geschke",
+               "rider_code":"rd156"
+            },
+            {
+               "rider_name":"Chad Haga",
+               "rider_code":"rd157"
+            },
+            {
+               "rider_name":"Edward Theuns",
+               "rider_code":"rd158"
+            }
+         ]
+      },
+      {
+         "team_name":"Trek-Segafredo",
+         "team_code":"TRE",
+         "riders":[
+            {
+               "rider_name":"Julien Bernard",
+               "rider_code":"rd161"
+            },
+            {
+               "rider_name":"John Degenkolb",
+               "rider_code":"rd162"
+            },
+            {
+               "rider_name":"Koen de Kort",
+               "rider_code":"rd163"
+            },
+            {
+               "rider_name":"Jasper Stuyven",
+               "rider_code":"rd164"
+            },
+            {
+               "rider_name":"Bauke Mollema",
+               "rider_code":"rd165"
+            },
+            {
+               "rider_name":"Michael Gogl",
+               "rider_code":"rd166"
+            },
+            {
+               "rider_name":"Tsgabu Grmay",
+               "rider_code":"rd167"
+            },
+            {
+               "rider_name":"Toms Skujins",
+               "rider_code":"rd168"
+            }
+         ]
+      },
+      {
+         "team_name":"UAE-Team Emirates",
+         "team_code":"UAE",
+         "riders":[
+            {
+               "rider_name":"Daniel Martin",
+               "rider_code":"rd171"
+            },
+            {
+               "rider_name":"Alexander Kristoff",
+               "rider_code":"rd172"
+            },
+            {
+               "rider_name":"Darwin Atapuma",
+               "rider_code":"rd173"
+            },
+            {
+               "rider_name":"Kristijan Durasek",
+               "rider_code":"rd174"
+            },
+            {
+               "rider_name":"Roberto Ferrari",
+               "rider_code":"rd175"
+            },
+            {
+               "rider_name":"Marco Marcato",
+               "rider_code":"rd176"
+            },
+            {
+               "rider_name":"Rory Sutherland",
+               "rider_code":"rd177"
+            },
+            {
+               "rider_name":"Oliviero Troia",
+               "rider_code":"rd178"
+            }
+         ]
+      },
+      {
+         "team_name":"Cofidis-Solutions Credits",
+         "team_code":"COF",
+         "riders":[
+            {
+               "rider_name":"Christophe Laporte",
+               "rider_code":"rd181"
+            },
+            {
+               "rider_name":"Dimitri Claeys",
+               "rider_code":"rd182"
+            },
+            {
+               "rider_name":"Nicolas Edet",
+               "rider_code":"rd183"
+            },
+            {
+               "rider_name":"Jesus Herrada",
+               "rider_code":"rd184"
+            },
+            {
+               "rider_name":"Daniel Navarro",
+               "rider_code":"rd185"
+            },
+            {
+               "rider_name":"Anthony Perez",
+               "rider_code":"rd186"
+            },
+            {
+               "rider_name":"Julien Simon",
+               "rider_code":"rd187"
+            },
+            {
+               "rider_name":"Anthony Turgis",
+               "rider_code":"rd188"
+            }
+         ]
+      },
+      {
+         "team_name":"Direct Energie",
+         "team_code":"DIR",
+         "riders":[
+            {
+               "rider_name":"Lilian Calmejane",
+               "rider_code":"rd191"
+            },
+            {
+               "rider_name":"Thomas Boudat",
+               "rider_code":"rd192"
+            },
+            {
+               "rider_name":"Sylvain Chavanel",
+               "rider_code":"rd193"
+            },
+            {
+               "rider_name":"Jerome Cousin",
+               "rider_code":"rd194"
+            },
+            {
+               "rider_name":"Damien Gaudin",
+               "rider_code":"rd195"
+            },
+            {
+               "rider_name":"Fabien Grellier",
+               "rider_code":"rd196"
+            },
+            {
+               "rider_name":"Romain Sicard",
+               "rider_code":"rd197"
+            },
+            {
+               "rider_name":"Rein Taaramae",
+               "rider_code":"rd198"
+            }
+         ]
+      },
+      {
+         "team_name":"Fortuneo-Samsic",
+         "team_code":"FOR",
+         "riders":[
+            {
+               "rider_name":"Warren Barguil",
+               "rider_code":"rd201"
+            },
+            {
+               "rider_name":"Amael Moinard",
+               "rider_code":"rd202"
+            },
+            {
+               "rider_name":"Elie Gesbert",
+               "rider_code":"rd203"
+            },
+            {
+               "rider_name":"Maxime Bouet",
+               "rider_code":"rd204"
+            },
+            {
+               "rider_name":"Romain Hardy",
+               "rider_code":"rd205"
+            },
+            {
+               "rider_name":"Kevin Ledanois",
+               "rider_code":"rd206"
+            },
+            {
+               "rider_name":"Laurent Pichon",
+               "rider_code":"rd207"
+            },
+            {
+               "rider_name":"Florian Vachon",
+               "rider_code":"rd208"
+            }
+         ]
+      },
+      {
+         "team_name":"Wanty-Groupe Gobert",
+         "team_code":"WAN",
+         "riders":[
+            {
+               "rider_name":"Thomas Degand",
+               "rider_code":"rd211"
+            },
+            {
+               "rider_name":"Timothy Dupont",
+               "rider_code":"rd212"
+            },
+            {
+               "rider_name":"Guillaume Martin",
+               "rider_code":"rd213"
+            },
+            {
+               "rider_name":"Marco Minnaard",
+               "rider_code":"rd214"
+            },
+            {
+               "rider_name":"Yoann Offredo",
+               "rider_code":"rd215"
+            },
+            {
+               "rider_name":"Andrea Pasqualon",
+               "rider_code":"rd216"
+            },
+            {
+               "rider_name":"Dion Smith",
+               "rider_code":"rd217"
+            },
+            {
+               "rider_name":"Guillaume Van Keirsbulck",
+               "rider_code":"rd218"
+            }
+         ]
+      }
+   ]
+}

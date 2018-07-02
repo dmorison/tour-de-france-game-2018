@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import startList from './teams-start-list.json';
+import startList from './startlist2018.json';
 
 class App extends Component {
 	constructor(props) {
