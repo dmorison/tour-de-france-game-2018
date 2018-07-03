@@ -3,8 +3,28 @@ body {
   padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+p.redText {
+	color: red;
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
 .player-selection {
 	padding: 20px;
+}
+
+.modal-content {
+	padding: 20px;
+
+	.player-selection {
+		padding: 0px 0px 20px 0px;
+
+		p.redText { padding: 20px 0px 0px 0px; }
+	}
 }
 
 .teams-wrapper {
@@ -22,6 +42,7 @@ body {
 
 	.team-name {
 		font-weight: bold;
+		text-transform: uppercase;
 		margin-bottom: 6px;
 	}
 
@@ -42,7 +63,7 @@ body {
 }
 
 .code-block {
-	margin-top: 40px;
+	/* margin-top: 40px; */
 	
 	> div {
 		padding: 10px;

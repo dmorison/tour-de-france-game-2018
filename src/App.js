@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 
-import startList from './teams-start-list.json';
+import startList from './startlist2018.json';
 
 class App extends Component {
 	constructor(props) {
 		super(props);
 
+		this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+
+    this.renderPlayerSelection = this.renderPlayerSelection.bind(this);
 		this.renderRiders = this.renderRiders.bind(this);
 		this.handleTeamSelect = this.handleTeamSelect.bind(this);
 		this.handleRiderSelect = this.handleRiderSelect.bind(this);
@@ -15,6 +20,7 @@ class App extends Component {
 		this.findRiderName = this.findRiderName.bind(this);
 
 		this.state = {
+			show: false,
 			team: null,
 			lead_rider_1: null,
 			lead_rider_2: null,
@@ -24,6 +30,14 @@ class App extends Component {
 			rider_6: null,
 		}
 	}
+
+	handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
+  }
 
 	findTeamName() {
 		let toFind = this.state.team;
@@ -78,7 +92,7 @@ class App extends Component {
 		this.setState({
 			lead_rider_1: leadrider_1,
 			lead_rider_2: leadrider_2
-		});
+		}, () => this.handleShow());
 	}
 
 	handleRiderSelect(event) {
@@ -120,14 +134,14 @@ class App extends Component {
 			rider_4: rider_4,
 			rider_5: rider_5,
 			rider_6: rider_6
-		});
+		}, () => this.handleShow());
 	}
 
 	handleTeamSelect(event) {
 		if (this.state.team === event.target.id) {
-			this.setState({ team: null });
+			this.setState({ team: null }, () => this.handleShow());
 		} else {
-			!this.state.team ? this.setState({ team: event.target.id }) : alert("You already have a team selected, please unselect your team to choose another one");
+			!this.state.team ? this.setState({ team: event.target.id }, () => this.handleShow()) : alert("You already have a team selected, please unselect your team to choose another one");
 		}
 	}
 
@@ -184,47 +198,61 @@ class App extends Component {
 		});
 	}
 
+	renderPlayerSelection(isModal) {
+		let thisTeam = this.state;
+		return (
+			<div className="player-selection">
+	  		<table>
+	  			<tbody>
+	      		<tr>
+	      			<td>Team:</td>
+	      			<td>{this.findTeamName()}</td>
+	      		</tr>
+	      		<tr>
+	      			<td>Lead rider 1:</td>
+	      			<td>{this.findRiderName(this.state.lead_rider_1)}</td>
+	      		</tr>
+	      		<tr>
+	      			<td>Lead rider 2:</td>
+	      			<td>{this.findRiderName(this.state.lead_rider_2)}</td>
+	      		</tr>
+	      		<tr>
+	      			<td>Rider 3:</td>
+	      			<td>{this.findRiderName(this.state.rider_3)}</td>
+	      		</tr>
+	      		<tr>
+	      			<td>Rider 4:</td>
+	      			<td>{this.findRiderName(this.state.rider_4)}</td>
+	      		</tr>
+	      		<tr>
+	      			<td>Rider 5:</td>
+	      			<td>{this.findRiderName(this.state.rider_5)}</td>
+	      		</tr>
+	      		<tr>
+	      			<td>Rider 6:</td>
+	      			<td>{this.findRiderName(this.state.rider_6)}</td>
+	      		</tr>
+	      	</tbody>
+	  		</table>
+	  		{
+	  			(thisTeam.team && thisTeam.lead_rider_1 && thisTeam.lead_rider_2 && thisTeam.rider_3 && thisTeam.rider_4 && thisTeam.rider_5 && thisTeam.rider_6 && isModal) ?
+	  			<p className="redText"><i><strong>IMPORTANT:</strong> When you are finished selecting your team please copy the code in the yellow highlight at the bottom of the page and send it to me in an email, thanks!</i></p> :
+	  			null
+	  		}
+	  	</div>
+	  );
+	}
+
   render() {
     return (
       <div className="App">
+      	<p className="redText"><i><strong>IMPORTANT:</strong> When you are finished selecting your team please copy the code in the yellow highlight at the bottom of the page and send it to me in an email, thanks!</i></p>
+      	{this.renderPlayerSelection(false)}
       	<form>
-	      	<div className="player-selection">
-	      		<table>
-	      			<tbody>
-			      		<tr>
-			      			<td>Team:</td>
-			      			<td>{this.findTeamName()}</td>
-			      		</tr>
-			      		<tr>
-			      			<td>Lead rider 1:</td>
-			      			<td>{this.findRiderName(this.state.lead_rider_1)}</td>
-			      		</tr>
-			      		<tr>
-			      			<td>Lead rider 2:</td>
-			      			<td>{this.findRiderName(this.state.lead_rider_2)}</td>
-			      		</tr>
-			      		<tr>
-			      			<td>Rider 3:</td>
-			      			<td>{this.findRiderName(this.state.rider_3)}</td>
-			      		</tr>
-			      		<tr>
-			      			<td>Rider 4:</td>
-			      			<td>{this.findRiderName(this.state.rider_4)}</td>
-			      		</tr>
-			      		<tr>
-			      			<td>Rider 5:</td>
-			      			<td>{this.findRiderName(this.state.rider_5)}</td>
-			      		</tr>
-			      		<tr>
-			      			<td>Rider 6:</td>
-			      			<td>{this.findRiderName(this.state.rider_6)}</td>
-			      		</tr>
-			      	</tbody>
-	      		</table>
-	      	</div>
       		<div className="teams-wrapper">
       	 		{this.renderRiders()}
       	 	</div>
+      	 	<p className="redText">Copy and paste this yellow highlighted code block and email to me:</p>
 	      	<code className="code-block">
 	      		<div>
 	      		{
@@ -243,6 +271,10 @@ class App extends Component {
 	      		</div>
 	      	</code>
       	</form>
+      	<Modal show={this.state.show} onHide={this.handleClose}>
+      		{this.renderPlayerSelection(true)}
+	      	<Button onClick={this.handleClose}>Close</Button>
+	      </Modal>
       </div>
     );
   }
