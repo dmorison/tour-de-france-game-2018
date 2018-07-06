@@ -271,7 +271,7 @@
          "team_code":"LOT",
          "riders":[
             {
-               "rider_name":"Primoz Roglic",
+               "rider_name":"Steven Kruijswijk",
                "rider_code":"rd071"
             },
             {
@@ -279,7 +279,7 @@
                "rider_code":"rd072"
             },
             {
-               "rider_name":"Steven Kruijswijk",
+               "rider_name":"Primoz Roglic",
                "rider_code":"rd073"
             },
             {
@@ -423,11 +423,11 @@
          "team_code":"QUI",
          "riders":[
             {
-               "rider_name":"Niki Terpstra",
+               "rider_name":"Julian Alaphilippe",
                "rider_code":"rd111"
             },
             {
-               "rider_name":"Julian Alaphilippe",
+               "rider_name":"Niki Terpstra",
                "rider_code":"rd112"
             },
             {
@@ -499,7 +499,7 @@
          "team_code":"KAT",
          "riders":[
             {
-               "rider_name":"Marcel Kittel",
+               "rider_name":"Ilnur Zakarin",
                "rider_code":"rd131"
             },
             {
@@ -507,7 +507,7 @@
                "rider_code":"rd132"
             },
             {
-               "rider_name":"Ilnur Zakarin",
+               "rider_name":"Marcel Kittel",
                "rider_code":"rd133"
             },
             {
@@ -575,15 +575,16 @@
          "team_code":"SUN",
          "riders":[
             {
-               "rider_name":"Tom Dumoulin",
+               "rider_name":"Michael Matthews",
                "rider_code":"rd151"
             },
+            
             {
                "rider_name":"Laurens ten Dam",
                "rider_code":"rd152"
             },
             {
-               "rider_name":"Michael Matthews",
+               "rider_name":"Tom Dumoulin",
                "rider_code":"rd153"
             },
             {
@@ -613,7 +614,7 @@
          "team_code":"TRE",
          "riders":[
             {
-               "rider_name":"Julien Bernard",
+               "rider_name":"Bauke Mollema",
                "rider_code":"rd161"
             },
             {
@@ -629,7 +630,7 @@
                "rider_code":"rd164"
             },
             {
-               "rider_name":"Bauke Mollema",
+               "rider_name":"Julien Bernard",
                "rider_code":"rd165"
             },
             {
@@ -803,7 +804,7 @@
          "team_code":"WAN",
          "riders":[
             {
-               "rider_name":"Thomas Degand",
+               "rider_name":"Guillaume Martin",
                "rider_code":"rd211"
             },
             {
@@ -811,7 +812,7 @@
                "rider_code":"rd212"
             },
             {
-               "rider_name":"Guillaume Martin",
+               "rider_name":"Thomas Degand",
                "rider_code":"rd213"
             },
             {
