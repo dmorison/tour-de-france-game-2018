@@ -3,7 +3,7 @@ const fs = require('fs');
 const { stageResults } = require('./daily_results_scrape.js');
 // console.log(stageResults());
 
-let startlist = fs.readFileSync('startlist2017_flat.json');
+let startlist = fs.readFileSync('startlist2018_flat.json');
 startlist = JSON.parse(startlist);
 
 // let stage_results = {
@@ -27,14 +27,14 @@ function retrieveRiderDetails(rider) {
 	}
 }
 
-function riderLookup(rider) {
+function riderLookup(key, rider) {
 	let surname_match = rider.substring((rider.indexOf(' ') + 1), (rider.indexOf(' ') + 6));
 	let firstname_match = rider.substring(0, 5);
 	// let rider = startlist.riders.find((i) => {
 	// 	return i.Rider.includes(match);
 	// });
 	let riderMatch = [];
-	startlist.riders.forEach((i) => {
+	startlist.forEach((i) => {
 		let thisRider = i.Rider.toUpperCase();
 		if (thisRider.includes(surname_match)) {
 			if (thisRider.includes(firstname_match)) {
@@ -45,7 +45,9 @@ function riderLookup(rider) {
 
 	switch (riderMatch.length) {
 		case 0:
-			console.log("Error: no riders found");
+			console.log("Error: no riders found for: " + key);
+			st_results_names.push(rider);
+			st_results_codes.push(rider);
 			break;
 		case 1:
 			retrieveRiderDetails(riderMatch[0]);
@@ -66,7 +68,7 @@ function init(result) {
 
 	Object.keys(result).forEach((key, index) => {
 		let lookup = result[key];
-		riderLookup(lookup);
+		riderLookup(key, lookup);
 	});
 
 	output();

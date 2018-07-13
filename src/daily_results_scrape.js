@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 async function stageResults() {
 
-	const browser = await puppeteer.launch({slowMo: 100}); // pass in: {slowMo: 200} to slow it down
+	const browser = await puppeteer.launch({slowMo: 150}); // pass in: {slowMo: 200} to slow it down
 	const page = await browser.newPage();
 
 	const WINNER = '.rankingTable tbody tr:nth-child(1) > td.runner > a';
