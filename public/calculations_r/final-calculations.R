@@ -1,22 +1,22 @@
 ### FINAL STAGE CALCULATIONS
 setwd("C:/Users/davem/coding_2018/tour-de-france-game-2018/public/calculations_r")
 
-df_start_list <- read.csv("start-list_2017.csv")
+df_start_list <- read.csv("start-list_2018.csv")
 
 overall_prizes <- c("First", "Second", "Third", "Green jersey", "Polka dot jersey", "White jersey", "Super combative",
                     "Final stage winner", "Overall winning team", "Lanten Rouge")
 scores <- c(10, 6, 4, 3, 3, 3, 2, 3, 3, 5)
 
-stage <- "Overall"
+stage <- "Final_points"
 ### Lookup overall classification
-df_start_list[grep("Row", df_start_list$Rider), ]
+df_start_list[grep("Cra", df_start_list$Rider), ]
 
-oa_rider_name_results <- c("Chris Froome (GBr)", "Rigoberto Uran (Col)", "Romain Bardet (Fra)",
-                           "Michael Matthews (Aus)", "Warren Barguil (Fra)", "Simon Yates (GBr)",
-                           "Warren Barguil (Fra)", "Dylan Groenewegen (Ned)", "Sky", "Luke Rowe (GBr)")
-oa_rider_code_results <- c("rd001", "rd088", "rd041",
-                           "rd111", "rd113", "rd201",
-                           "rd113", "rd054", "SKY", "rd007")
+oa_rider_name_results <- c("Geraint Thomas", "Tom Dumoulin", "Chris Froome",
+                           "Peter Sagan", "Julian Alaphilippe", "Pierre Latour",
+                           "Daniel Martin", "Alexander Kristoff", "Movistar Team", "Lawson Craddock")
+oa_rider_code_results <- c("rd143", "rd153", "rd141",
+                           "rd041", "rd111", "rd007",
+                           "rd171", "rd172", "MOV", "rd126")
 
 df_rider_name_overall <- data.frame(Award = overall_prizes, Rider = oa_rider_name_results,
                                     Points = scores)
@@ -24,7 +24,7 @@ write.csv(df_rider_name_overall, file = "rider_name_overall.csv", row.names = FA
 ### CALCULATION
 df_players <- read.csv("players-codes.csv")
 df_players_results <- read.csv("players-stage-results.csv")
-### REMEMBER TO SKIP THIS FOR FIRST STAGE!!!
+
 df_player_st_winners <- read.csv("player-st-winners.csv")
 ###
 oa_results <- apply(df_players[, 2:8], 1, function(x){ sum(scores[which(oa_rider_code_results %in% x)]) })

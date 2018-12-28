@@ -1,0 +1,177 @@
+Team,team_code,rider_code,Rider
+AG2R La Mondiale,AG2,rd001,Romain Bardet
+AG2R La Mondiale,AG2,rd002,Silvan Dillier
+AG2R La Mondiale,AG2,rd003,Axel Domont
+AG2R La Mondiale,AG2,rd004,Tony Gallopin
+AG2R La Mondiale,AG2,rd005,Mathias Frank
+AG2R La Mondiale,AG2,rd006,Oliver Naesen
+AG2R La Mondiale,AG2,rd007,Pierre Latour
+AG2R La Mondiale,AG2,rd008,Alexis Vuillermoz
+Astana Pro Team,AST,rd011,Jakob Fuglsang
+Astana Pro Team,AST,rd012,Luis Leon Sanchez
+Astana Pro Team,AST,rd013,Dmitriy Gruzdev
+Astana Pro Team,AST,rd014,Magnus Cort
+Astana Pro Team,AST,rd015,Omar Fraile
+Astana Pro Team,AST,rd016,Jesper Hansen
+Astana Pro Team,AST,rd017,Tanel Kangert
+Astana Pro Team,AST,rd018,Michael Valgren Andersen
+Bahrain Merida,BAH,rd021,Vincenzo Nibali
+Bahrain Merida,BAH,rd022,Domenico Pozzovivo
+Bahrain Merida,BAH,rd023,Gorka Izagirre
+Bahrain Merida,BAH,rd024,Ion Izagirre
+Bahrain Merida,BAH,rd025,Sonny Colbrelli
+Bahrain Merida,BAH,rd026,Heinrich Haussler
+Bahrain Merida,BAH,rd027,Kristijan Koren
+Bahrain Merida,BAH,rd028,Franco Pellizotti
+BMC Racing Team,BMC,rd031,Richie Porte
+BMC Racing Team,BMC,rd032,Greg Van Avermaet
+BMC Racing Team,BMC,rd033,Tejay Van Garderen
+BMC Racing Team,BMC,rd034,Patrick Bevin
+BMC Racing Team,BMC,rd035,Damiano Caruso
+BMC Racing Team,BMC,rd036,Simon Gerrans
+BMC Racing Team,BMC,rd037,Stefan Kung
+BMC Racing Team,BMC,rd038,Michael Schar
+BORA-hansgrohe,BOR,rd041,Peter Sagan
+BORA-hansgrohe,BOR,rd042,Maciej Bodnar
+BORA-hansgrohe,BOR,rd043,Markus Burghardt
+BORA-hansgrohe,BOR,rd044,Rafal Majka
+BORA-hansgrohe,BOR,rd045,Gregor Muhlberger
+BORA-hansgrohe,BOR,rd046,Daniel Oss
+BORA-hansgrohe,BOR,rd047,Pawel Poljanski
+BORA-hansgrohe,BOR,rd048,Lukas Postlberger
+Dimension Data,DIM,rd051,Mark Cavendish
+Dimension Data,DIM,rd052,Edvald Boasson Hagen
+Dimension Data,DIM,rd053,Tom-Jelte Slagter
+Dimension Data,DIM,rd054,Reinardt J van Rensburg
+Dimension Data,DIM,rd055,Serge Pauwels
+Dimension Data,DIM,rd056,Mark Renshaw
+Dimension Data,DIM,rd057,Jay Thomson
+Dimension Data,DIM,rd058,Julien Vermote
+Groupama-FDJ,FDJ,rd061,Arnaud Demare
+Groupama-FDJ,FDJ,rd062,Ramon Sinkeldam
+Groupama-FDJ,FDJ,rd063,David Gaudu
+Groupama-FDJ,FDJ,rd064,Jacopo Guarnieri
+Groupama-FDJ,FDJ,rd065,Olivier Le Gac
+Groupama-FDJ,FDJ,rd066,Tobias Ludvigsson
+Groupama-FDJ,FDJ,rd067,Rudy Molard
+Groupama-FDJ,FDJ,rd068,Arthur Vichot
+Lotto NL-Jumbo,LOT,rd071,Steven Kruijswijk
+Lotto NL-Jumbo,LOT,rd072,Dylan Groenewegen
+Lotto NL-Jumbo,LOT,rd073,Primoz Roglic
+Lotto NL-Jumbo,LOT,rd074,Robert Gesink
+Lotto NL-Jumbo,LOT,rd075,Amund Grondahl Jansen
+Lotto NL-Jumbo,LOT,rd076,Paul Martens
+Lotto NL-Jumbo,LOT,rd077,Timo Roosen
+Lotto NL-Jumbo,LOT,rd078,Antwan Tolhoek
+Mitchelton-Scott,MIT,rd081,Adam Yates
+Mitchelton-Scott,MIT,rd082,Mikel Nieve
+Mitchelton-Scott,MIT,rd083,Jack Bauer
+Mitchelton-Scott,MIT,rd084,Luke Durbridge
+Mitchelton-Scott,MIT,rd085,Mathew Hayman
+Mitchelton-Scott,MIT,rd086,Michael Hepburn
+Mitchelton-Scott,MIT,rd087,Damien Howson
+Mitchelton-Scott,MIT,rd088,Daryl Impey
+Movistar Team,MOV,rd091,Nairo Quintana
+Movistar Team,MOV,rd092,Mikel Landa
+Movistar Team,MOV,rd093,Alejandro Valverde
+Movistar Team,MOV,rd094,Jose Joaquin Rojas
+Movistar Team,MOV,rd095,Marc Soler
+Movistar Team,MOV,rd096,Andrey Amador
+Movistar Team,MOV,rd097,Daniele Bennati
+Movistar Team,MOV,rd098,Imanol Erviti
+Lotto Soudal,NEW,rd101,Andre Greipel
+Lotto Soudal,NEW,rd102,Tiesj Benoot
+Lotto Soudal,NEW,rd103,Jasper De Buyst
+Lotto Soudal,NEW,rd104,Thomas De Gendt
+Lotto Soudal,NEW,rd105,Jens Keukeleire
+Lotto Soudal,NEW,rd106,Tomasz Marczsynski
+Lotto Soudal,NEW,rd107,Marcel Sieberg
+Lotto Soudal,NEW,rd108,Jelle Vanendert
+Quick-Step Floors,QUI,rd111,Julian Alaphilippe
+Quick-Step Floors,QUI,rd112,Niki Terpstra
+Quick-Step Floors,QUI,rd113,Tim Declercq
+Quick-Step Floors,QUI,rd114,Fernando Gaviria
+Quick-Step Floors,QUI,rd115,Philippe Gilbert
+Quick-Step Floors,QUI,rd116,Yves Lampaert
+Quick-Step Floors,QUI,rd117,Maximiliano Richeze
+Quick-Step Floors,QUI,rd118,Bob Jungels
+EF Education-Drapac Cannondale,EFE,rd121,Rigoberto Uran
+EF Education-Drapac Cannondale,EFE,rd122,Sep Vanmarcke
+EF Education-Drapac Cannondale,EFE,rd123,Taylor Phinney
+EF Education-Drapac Cannondale,EFE,rd124,Pierre Rolland
+EF Education-Drapac Cannondale,EFE,rd125,Simon Clarke
+EF Education-Drapac Cannondale,EFE,rd126,Lawson Craddock
+EF Education-Drapac Cannondale,EFE,rd127,Daniel Felipe Martinez
+EF Education-Drapac Cannondale,EFE,rd128,Tom Scully
+Team Katusha-Alpecin,KAT,rd131,Ilnur Zakarin
+Team Katusha-Alpecin,KAT,rd132,Tony Martin
+Team Katusha-Alpecin,KAT,rd133,Marcel Kittel
+Team Katusha-Alpecin,KAT,rd134,Ian Boswell
+Team Katusha-Alpecin,KAT,rd135,Robert Kiserlovski
+Team Katusha-Alpecin,KAT,rd136,Pavel Kochetkov
+Team Katusha-Alpecin,KAT,rd137,Nils Politt
+Team Katusha-Alpecin,KAT,rd138,Rick Zabel
+Team Sky,SKY,rd141,Chris Froome
+Team Sky,SKY,rd142,Gianni Moscon
+Team Sky,SKY,rd143,Geraint Thomas
+Team Sky,SKY,rd144,Michal Kwiatkowski
+Team Sky,SKY,rd145,Wout Poels
+Team Sky,SKY,rd146,Egan Bernal
+Team Sky,SKY,rd147,Jonathan Castroviejo
+Team Sky,SKY,rd148,Luke Rowe
+Team Sunweb,SUN,rd151,Michael Matthews
+Team Sunweb,SUN,rd152,Laurens ten Dam
+Team Sunweb,SUN,rd153,Tom Dumoulin
+Team Sunweb,SUN,rd154,Soren Kragh Andersen
+Team Sunweb,SUN,rd155,Nikias Arndt
+Team Sunweb,SUN,rd156,Simon Geschke
+Team Sunweb,SUN,rd157,Chad Haga
+Team Sunweb,SUN,rd158,Edward Theuns
+Trek-Segafredo,TRE,rd161,Bauke Mollema
+Trek-Segafredo,TRE,rd162,John Degenkolb
+Trek-Segafredo,TRE,rd163,Koen de Kort
+Trek-Segafredo,TRE,rd164,Jasper Stuyven
+Trek-Segafredo,TRE,rd165,Julien Bernard
+Trek-Segafredo,TRE,rd166,Michael Gogl
+Trek-Segafredo,TRE,rd167,Tsgabu Grmay
+Trek-Segafredo,TRE,rd168,Toms Skujins
+UAE-Team Emirates,UAE,rd171,Daniel Martin
+UAE-Team Emirates,UAE,rd172,Alexander Kristoff
+UAE-Team Emirates,UAE,rd173,Darwin Atapuma
+UAE-Team Emirates,UAE,rd174,Kristijan Durasek
+UAE-Team Emirates,UAE,rd175,Roberto Ferrari
+UAE-Team Emirates,UAE,rd176,Marco Marcato
+UAE-Team Emirates,UAE,rd177,Rory Sutherland
+UAE-Team Emirates,UAE,rd178,Oliviero Troia
+Cofidis-Solutions Credits,COF,rd181,Christophe Laporte
+Cofidis-Solutions Credits,COF,rd182,Dimitri Claeys
+Cofidis-Solutions Credits,COF,rd183,Nicolas Edet
+Cofidis-Solutions Credits,COF,rd184,Jesus Herrada
+Cofidis-Solutions Credits,COF,rd185,Daniel Navarro
+Cofidis-Solutions Credits,COF,rd186,Anthony Perez
+Cofidis-Solutions Credits,COF,rd187,Julien Simon
+Cofidis-Solutions Credits,COF,rd188,Anthony Turgis
+Direct Energie,DIR,rd191,Lilian Calmejane
+Direct Energie,DIR,rd192,Thomas Boudat
+Direct Energie,DIR,rd193,Sylvain Chavanel
+Direct Energie,DIR,rd194,Jerome Cousin
+Direct Energie,DIR,rd195,Damien Gaudin
+Direct Energie,DIR,rd196,Fabien Grellier
+Direct Energie,DIR,rd197,Romain Sicard
+Direct Energie,DIR,rd198,Rein Taaramae
+Fortuneo-Samsic,FOR,rd201,Warren Barguil
+Fortuneo-Samsic,FOR,rd202,Amael Moinard
+Fortuneo-Samsic,FOR,rd203,Elie Gesbert
+Fortuneo-Samsic,FOR,rd204,Maxime Bouet
+Fortuneo-Samsic,FOR,rd205,Romain Hardy
+Fortuneo-Samsic,FOR,rd206,Kevin Ledanois
+Fortuneo-Samsic,FOR,rd207,Laurent Pichon
+Fortuneo-Samsic,FOR,rd208,Florian Vachon
+Wanty-Groupe Gobert,WAN,rd211,Guillaume Martin
+Wanty-Groupe Gobert,WAN,rd212,Timothy Dupont
+Wanty-Groupe Gobert,WAN,rd213,Thomas Degand
+Wanty-Groupe Gobert,WAN,rd214,Marco Minnaard
+Wanty-Groupe Gobert,WAN,rd215,Yoann Offredo
+Wanty-Groupe Gobert,WAN,rd216,Andrea Pasqualon
+Wanty-Groupe Gobert,WAN,rd217,Dion Smith
+Wanty-Groupe Gobert,WAN,rd218,Guillaume Van Keirsbulck
