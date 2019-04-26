@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import React, { Component } from "react";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
 import startList from './startlist2018.json';
 
