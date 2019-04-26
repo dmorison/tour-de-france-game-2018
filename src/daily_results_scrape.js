@@ -7,7 +7,7 @@ async function stageResults() {
 
 	const WINNER = '.rankingTable tbody tr:nth-child(1) > td.runner > a';
 
-	await page.goto('https://www.letour.fr/en/rankings/stage-6');
+	await page.goto('https://www.letour.fr/en/rankings/stage-15');
 	const st_winner = await page.evaluate((sel) => {
 		return document.querySelector(sel).innerText;
 	}, WINNER);

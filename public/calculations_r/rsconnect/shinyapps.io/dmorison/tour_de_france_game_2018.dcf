@@ -1,0 +1,11 @@
+name: tour_de_france_game_2018
+title: Tour de France game 2018
+account: dmorison
+server: shinyapps.io
+appId: 376390
+bundleId: 1507945
+url: https://dmorison.shinyapps.io/tour_de_france_game_2018/
+when: 1532980757.19801
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: daily-calculations.R|final-calculations.R|init-tables.R|players-codes-raw|players-teams-raw
