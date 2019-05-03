@@ -11,11 +11,11 @@ class App extends Component {
 		this.handleShow = this.handleShow.bind(this);
     this.handleClose = this.handleClose.bind(this);
 
-    this.renderPlayerSelection = this.renderPlayerSelection.bind(this);
-		this.renderRiders = this.renderRiders.bind(this);
-		this.handleTeamSelect = this.handleTeamSelect.bind(this);
-		this.handleRiderSelect = this.handleRiderSelect.bind(this);
-		this.handleLeadRiderSelect = this.handleLeadRiderSelect.bind(this);
+    // this.renderPlayerSelection = this.renderPlayerSelection.bind(this);
+		// this.renderRiders = this.renderRiders.bind(this);
+		// this.handleTeamSelect = this.handleTeamSelect.bind(this);
+		// this.handleRiderSelect = this.handleRiderSelect.bind(this);
+		// this.handleLeadRiderSelect = this.handleLeadRiderSelect.bind(this);
 
 		this.findTeamName = this.findTeamName.bind(this);
 		this.findRiderName = this.findRiderName.bind(this);
@@ -68,11 +68,11 @@ class App extends Component {
 		}
 	}
 
-	handleLeadRiderSelect(event) {
+	handleLeadRiderSelect(rider, team) {
 		let leadrider_1 = this.state.lead_rider_1;
 		let leadrider_2 = this.state.lead_rider_2;
 
-		switch (event.target.id) {
+		switch (rider) {
 			case leadrider_1:
 				leadrider_1 = null;
 				break;
@@ -80,29 +80,34 @@ class App extends Component {
 				leadrider_2 = null;
 				break;
 			default:
-				if (!leadrider_1) {
-					leadrider_1 = event.target.id;
-				} else if (!leadrider_2) {
-					leadrider_2 = event.target.id;
+				if(this.state.team !== team) {
+					if (!leadrider_1) {
+						leadrider_1 = rider;
+					} else if (!leadrider_2) {
+						leadrider_2 = rider;
+					} else {
+						alert("You already have 2 lead riders, please unselect one before choosing another");
+					}
 				} else {
-					alert("You already have 2 lead riders, please unselect one before choosing another");
+					alert("You cannot select the lead rider of the team you've already selected");
 				}
 				break;
 		}
 
 		this.setState({
 			lead_rider_1: leadrider_1,
-			lead_rider_2: leadrider_2
-		}, () => this.handleShow());
+			lead_rider_2: leadrider_2,
+			show: true
+		});
 	}
 
-	handleRiderSelect(event) {
+	handleRiderSelect(rider) {
 		let rider_3 = this.state.rider_3;
 		let rider_4 = this.state.rider_4;
 		let rider_5 = this.state.rider_5;
 		let rider_6 = this.state.rider_6;
 
-		switch (event.target.id) {
+		switch (rider) {
 			case rider_3:
 				rider_3 = null;
 				break;
@@ -117,13 +122,13 @@ class App extends Component {
 				break;
 			default:
 				if (!rider_3) {
-					rider_3 = event.target.id;
+					rider_3 = rider;
 				} else if (!rider_4) {
-					rider_4 = event.target.id;
+					rider_4 = rider;
 				} else if (!rider_5) {
-					rider_5 = event.target.id;
+					rider_5 = rider;
 				} else if (!rider_6) {
-					rider_6 = event.target.id;
+					rider_6 = rider;
 				} else {
 					alert("You already have all your riders, please unselect one before choosing another");
 				}
@@ -134,19 +139,20 @@ class App extends Component {
 			rider_3: rider_3,
 			rider_4: rider_4,
 			rider_5: rider_5,
-			rider_6: rider_6
-		}, () => this.handleShow());
+			rider_6: rider_6,
+			show: true
+		});
 	}
 
-	handleTeamSelect(event) {
-		if (this.state.team === event.target.id) {
-			this.setState({ team: null }, () => this.handleShow());
+	handleTeamSelect(team) {
+		if (this.state.team === team) {
+			this.setState({ team: null, show: true });
 		} else {
-			!this.state.team ? this.setState({ team: event.target.id }, () => this.handleShow()) : alert("You already have a team selected, please unselect your team to choose another one");
+			!this.state.team ? this.setState({ team: team, show: true }) : alert("You already have a team selected, please unselect your team to choose another one");
 		}
 	}
 
-	renderRiders() {
+	renderRiders = () => {
 		const teams = startList.teams;
 
 		return teams.map((team, index) => {
@@ -157,7 +163,7 @@ class App extends Component {
 							href="#"
 							id={team.team_code}
 							className="team-name"
-							onClick={this.handleTeamSelect}
+							onClick={() => this.handleTeamSelect(team.team_code)}
 						>
 							{team.team_name}
 						</a>
@@ -173,7 +179,7 @@ class App extends Component {
 											id={rider.rider_code}
 											className="rider-name"
 											key={rider.rider_code}
-											onClick={this.handleLeadRiderSelect}
+											onClick={() => this.handleLeadRiderSelect(rider.rider_code, team.team_code)}
 										>
 											{rider.rider_name}
 										</a>
@@ -185,7 +191,7 @@ class App extends Component {
 											id={rider.rider_code}
 											className="rider-name"
 											key={rider.rider_code}
-											onClick={this.handleRiderSelect}
+											onClick={() => this.handleRiderSelect(rider.rider_code)}
 										>
 											{rider.rider_name}
 										</a>
@@ -199,7 +205,7 @@ class App extends Component {
 		});
 	}
 
-	renderPlayerSelection(isModal) {
+	renderPlayerSelection = (isModal) => {
 		let thisTeam = this.state;
 		return (
 			<div className="player-selection">
