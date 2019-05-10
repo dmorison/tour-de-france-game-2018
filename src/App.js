@@ -11,12 +11,6 @@ class App extends Component {
 		this.handleShow = this.handleShow.bind(this);
     this.handleClose = this.handleClose.bind(this);
 
-    // this.renderPlayerSelection = this.renderPlayerSelection.bind(this);
-		// this.renderRiders = this.renderRiders.bind(this);
-		// this.handleTeamSelect = this.handleTeamSelect.bind(this);
-		// this.handleRiderSelect = this.handleRiderSelect.bind(this);
-		// this.handleLeadRiderSelect = this.handleLeadRiderSelect.bind(this);
-
 		this.findTeamName = this.findTeamName.bind(this);
 		this.findRiderName = this.findRiderName.bind(this);
 
@@ -68,30 +62,45 @@ class App extends Component {
 		}
 	}
 
+	handleTeamSelect(team, leadRider) {
+		let teamSelect = this.state.team;
+
+		switch (leadRider) {
+			case this.state.lead_rider_1:
+			case this.state.lead_rider_2:
+				alert("You cannot chose a team for which you already have a lead rider from");
+				break;
+			default:
+				!teamSelect ? (teamSelect = team) : alert("You already selected a team");
+		}
+
+		this.setState({
+			team: teamSelect,
+			show: true
+		});
+	}
+
+	handleRemoveTeam() {
+		this.setState({ team: null });
+	}
+
 	handleLeadRiderSelect(rider, team) {
 		let leadrider_1 = this.state.lead_rider_1;
 		let leadrider_2 = this.state.lead_rider_2;
 
-		switch (rider) {
-			case leadrider_1:
-				leadrider_1 = null;
-				break;
-			case leadrider_2:
-				leadrider_2 = null;
-				break;
-			default:
-				if(this.state.team !== team) {
-					if (!leadrider_1) {
-						leadrider_1 = rider;
-					} else if (!leadrider_2) {
-						leadrider_2 = rider;
-					} else {
-						alert("You already have 2 lead riders, please unselect one before choosing another");
-					}
-				} else {
-					alert("You cannot select the lead rider of the team you've already selected");
-				}
-				break;
+		if (this.state.team === team) {
+			alert("You cannot choose a lead rider from the team you've chosen as your team");
+			return;
+		}
+
+		if (leadrider_1 === rider || leadrider_2 === rider) {
+			alert("You already have this rider selected");
+		} else if (!leadrider_1) {
+			leadrider_1 = rider;
+		} else if (!leadrider_2) {
+			leadrider_2 = rider;
+		} else {
+			alert("You already have two lead riders");
 		}
 
 		this.setState({
@@ -99,6 +108,11 @@ class App extends Component {
 			lead_rider_2: leadrider_2,
 			show: true
 		});
+	}
+
+	handleRemoveLeadRider(x) {
+		let leadRider = `lead_rider_${x}`;
+		this.setState({ [leadRider]: null });
 	}
 
 	handleRiderSelect(rider) {
@@ -109,16 +123,10 @@ class App extends Component {
 
 		switch (rider) {
 			case rider_3:
-				rider_3 = null;
-				break;
 			case rider_4:
-				rider_4 = null;
-				break;
 			case rider_5:
-				rider_5 = null;
-				break;
 			case rider_6:
-				rider_6 = null;
+				alert("You already have this rider selected");
 				break;
 			default:
 				if (!rider_3) {
@@ -144,12 +152,9 @@ class App extends Component {
 		});
 	}
 
-	handleTeamSelect(team) {
-		if (this.state.team === team) {
-			this.setState({ team: null, show: true });
-		} else {
-			!this.state.team ? this.setState({ team: team, show: true }) : alert("You already have a team selected, please unselect your team to choose another one");
-		}
+	handleRemoveRider(x) {
+		let rider = `rider_${x}`;
+		this.setState({ [rider]: null });
 	}
 
 	renderRiders = () => {
@@ -163,11 +168,10 @@ class App extends Component {
 							href="#"
 							id={team.team_code}
 							className="team-name"
-							onClick={() => this.handleTeamSelect(team.team_code)}
+							onClick={() => this.handleTeamSelect(team.team_code, team.riders[0].rider_code)}
 						>
 							{team.team_name}
 						</a>
-						<span className="warning-msg"><i>(remember you can't select both the team and team leader)</i></span>
 					</div>
 					<div>
 						{
@@ -214,30 +218,37 @@ class App extends Component {
 	      		<tr>
 	      			<td>Team:</td>
 	      			<td>{this.findTeamName()}</td>
+							{this.state.team ? <td><a href="#" title="Remove" className="remove" onClick={() => this.handleRemoveTeam()}> x </a></td> : null}
 	      		</tr>
 	      		<tr>
 	      			<td>Lead rider 1:</td>
 	      			<td>{this.findRiderName(this.state.lead_rider_1)}</td>
+							{this.state.lead_rider_1 ? <td><a href="#" title="Remove" className="remove" onClick={() => this.handleRemoveLeadRider(1)}> x </a></td> : null}
 	      		</tr>
 	      		<tr>
 	      			<td>Lead rider 2:</td>
 	      			<td>{this.findRiderName(this.state.lead_rider_2)}</td>
+							{this.state.lead_rider_2 ? <td><a href="#" title="Remove" className="remove" onClick={() => this.handleRemoveLeadRider(2)}> x </a></td> : null}
 	      		</tr>
 	      		<tr>
 	      			<td>Rider 3:</td>
 	      			<td>{this.findRiderName(this.state.rider_3)}</td>
+							{this.state.rider_3 ? <td><a href="#" title="Remove" className="remove" onClick={() => this.handleRemoveRider(3)}> x </a></td> : null}
 	      		</tr>
 	      		<tr>
 	      			<td>Rider 4:</td>
 	      			<td>{this.findRiderName(this.state.rider_4)}</td>
+							{this.state.rider_4 ? <td><a href="#" title="Remove" className="remove" onClick={() => this.handleRemoveRider(4)}> x </a></td> : null}
 	      		</tr>
 	      		<tr>
 	      			<td>Rider 5:</td>
 	      			<td>{this.findRiderName(this.state.rider_5)}</td>
+							{this.state.rider_5 ? <td><a href="#" title="Remove" className="remove" onClick={() => this.handleRemoveRider(5)}> x </a></td> : null}
 	      		</tr>
 	      		<tr>
 	      			<td>Rider 6:</td>
 	      			<td>{this.findRiderName(this.state.rider_6)}</td>
+							{this.state.rider_6 ? <td><a href="#" title="Remove" className="remove" onClick={() => this.handleRemoveRider(6)}> x </a></td> : null}
 	      		</tr>
 	      	</tbody>
 	  		</table>
